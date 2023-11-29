@@ -1,0 +1,178 @@
+/* Reset some default styles for consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Header styles */
+  header {
+    header {
+        background-image: url('q1.jpg');
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        
+      }
+      
+    color: #fff;
+    padding: 10px;
+  }
+  
+  header nav {
+    display: flex;
+  }
+  
+  header a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  /* Hero section styles */
+  section#home {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 80px 0;
+  }
+  
+  section#home h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  section#home p {
+    font-size: 18px;
+    color: #444;
+    max-width: 600px;
+    margin: 0 auto 30px;
+  }
+  
+  section#home .cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  /* Features section styles */
+  section#features {
+    text-align: center;
+    padding: 80px 0;
+  }
+  
+section#features h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+section#features ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+section#features li {
+  max-width: 300px;
+}
+
+section#features img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+/* About section styles */
+section#about {
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 80px 0;
+}
+
+section#about h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+section#about p {
+  font-size: 18px;
+  color: #444;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+/* Contact section styles */
+section#contact {
+  text-align: center;
+  padding: 80px 0;
+}
+
+section#contact h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+section#contact p {
+  font-size: 18px;
+  color: #444;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+/* Media queries for responsiveness (adjust as needed) */
+@media screen and (max-width: 768px) {
+  /* Example: Adjust styles for smaller screens */
+  header nav {
+    flex-direction: column;
+  }
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    header nav {     
+      flex-direction: column;
+    }
+  
+    /* Adjust the hero section */
+    section#home h1 {
+      font-size: 28px;
+    }
+  
+    section#home p {
+      font-size: 16px;
+    }
+  
+    /* Adjust the features section */
+    section#features ul {
+      flex-wrap: wrap;
+    }
+  
+    section#features li {
+      margin-bottom: 30px;
+    }
+  
+    /* Adjust the footer */
+    footer p {
+      font-size: 12px;
+    }
+  }
+  
