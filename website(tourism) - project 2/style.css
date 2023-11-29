@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(12,3,51,0.33),rgba(12,3,51,0.33));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+nav{
+    
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+nav.logo{
+    width: 30px;
+}
+
+nav ul li{
+    list-style:none;
+    display: inline;
+    margin-left: 40px;
+    position: relative;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+
+}
+
+.nav ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #062021;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition:0.5s;
+}
+
+.nav ul li:hover:after{
+    width: 100%;
+}
+
+.content{
+    text-align: center;
+}
+
+.content h1{
+    font-family: serif, cursive;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 300;
+    transition: 0.5s;
+}
+
+.content h2{
+    font-family: cursive;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 50;
+    transition: 0.5s;
+}
+.content h1:hover{
+        -webkit-text-stroke: 2px #fff;
+        color: transparent;
+}
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    border: 2px solid #4fcfd3;
+    padding: 12px 62px;
+    border-radius: 47px;
+    margin-top: 20px;
+}
+
+
+.back-video{
+    position: absolute;
+    right: 0%;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media(min-aspect-ratio:16/89 ){
+    .back-video{
+        width: 150%;
+        height: auto;
+    }
+
+}
+    
+@media(min-aspect-ratio:16/89 ){
+    .back-video{
+        width: auto;
+        height: 150%;
+    }
+
+}
+    
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(12,3,51,0.33),rgba(12,3,51,0.33)),url(beach.jpg);
+    background-position: center;
+    background-size:cover;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50;
+}
+
+h1{
+    color: #fff;
+    font-size: 70px;
+}
+
+p{
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px o;
+    background: 0;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+
+.card{
+    width: 200px;   
+    height: 230px;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 27px 45px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 25px 35px;
+    background-position: center;
+    background-size: cover;
+    transition: transform;
+}
+
+.card1{
+    background-image: url(p1.jpg);
+}
+
+.card2{
+    background-image: url(p2.jpg);
+}
+
+.card3{
+    background-image: url(p3.jpg);
+}
+
+.card4{
+    background-image: url(p4.jpg);
+}
+
+
+.card5{
+    background-image: url(p5.jpg);
+}
+
+.card6{
+    background-image: url(p6.jpg);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+
+.ruk{
+    max-width: 1170px;
+    background-color: rgb(158, 203, 219);
+    margin: auto;
+}
+
+
+.rw{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer{
+    background-color:  rgb(158, 203, 219);
+    padding: 70px 0;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+    font-size: 18 px;
+    color:#ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+
+
+
+
+.about{
+    width:100%;
+    padding: 78px 0px;
+    background-color: rgba(175, 214, 227, 0.893)
+}
+
+.about img{
+    height: auto;
+    width: 420px;
+}
+
+.more{
+    width: 550px;
+}
+
+.main{
+    width:1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.more h1{
+    color: white;
+    font-size:80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+span{
+    color:#fcfc;
+}
+
