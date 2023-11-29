@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASIC MATH</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="i.png">
+    <script src="cal.js"></script>
+</head>
+
+<body> 
+
+    <div class="container">
+        <h1>Odd or Even </h1>
+        <label for="number">Enter a number:</label>
+        <input type="number" id="number" placeholder="Enter a number">
+        <button onclick="checkOddOrEven()">Check</button>
+        <button onclick="resetForm()">Reset</button>
+
+        <p id="result"></p>
+    </div>
+
+
+
+
+
+    <div class="container">  
+        <h1>Prime or Composite </h1>
+        <label for="number">Enter a number:</label>
+        <input type="number" id="number2" placeholder="Enter a number">
+        <button onclick="checkPrimeOrComposite()">Check</button>
+        <button onclick="resetForm()">Reset</button>
+        
+        <p id="result2"></p>
+    </div> 
+
+    
+    <div class="container">
+        <h1>Factorial Finder</h1>
+        <label for="number">Enter a number:</label>
+        <input type="number" id="number3" placeholder="Enter a number">
+        <button onclick="findFactorial()">Find </button>
+        <button onclick="resetForm()">Reset</button>
+        
+        <p id="result3"></p>
+    </div> 
+
+
+    <div class="container">
+        <h1>Fibonacci Series</h1>
+        <label for="length">Enter the length:</label>
+        <input type="number" id="length" placeholder="Enter the length">
+        <button onclick="findFibonacci()">Find</button>
+        <button onclick="resetForm()">Reset</button> 
+
+        <p id="result4"></p>
+    </div>
+
+
+
+    <div class="container">
+        <h1>Palindrome</h1>
+        <label for="inputText">Enter a word or phrase:</label>
+        <input type="text" id="inputText" placeholder="Enter a word or phrase">
+        <button onclick="checkPalindrome()">Check</button>
+
+        <button onclick="resetForm()">Reset</button>
+        <p id="result5"></p>
+    </div>
+
+
+</body>
+</html>
